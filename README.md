@@ -1,6 +1,6 @@
 # Programming-in-Java-NPTEL
 # This repository in NPTEL course Programming in Java Question and Quiz answer.
-# [Programming_In_Java_NPTEL](https://github.com/sumitnce1/Programming in Java NPTEL)
+# [Programming_In_Java_NPTEL](https://github.com/sumitnce1/Programming-in-Java-NPTEL)
 
 
 ## [WEEK 1](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%201)

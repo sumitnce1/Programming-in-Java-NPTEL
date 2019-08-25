@@ -41,7 +41,12 @@
 
   [Java Week 3:Q5](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%203/Exercise%203.5.java) To swap two numbers using call by object reference.
 
-## [WEEK 4](https://sumitnce1.github.io/)
+## [WEEK 4](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%204)
+   [Java Week 4:Q1](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%204/Exercise%204.1.java)
+   [Java Week 3:Q2](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%204/Exercise%204.2.java)
+   [Java Week 3:Q3](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%204/Exercise%204.3.java)
+   [Java Week 3:Q4](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%204/Exercise%204.4.java)
+   [Java Week 3:Q5](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%204/Exercise%204.5.java)
 
 ## [WEEK 5](https://sumitnce1.github.io/)
 

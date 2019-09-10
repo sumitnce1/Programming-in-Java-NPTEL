@@ -45,7 +45,7 @@
 
    [Java Week 4:Q1](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%204/Exercise%204.1.java)
    
-   [Java Week 4:Q2](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%204/Exercise%204.2.java)
+   [Java Week 4:Q2](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%204/Exercise%204.2.java )
    
    [Java Week 4:Q3](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%204/Exercise%204.3.java)
    

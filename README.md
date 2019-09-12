@@ -65,7 +65,7 @@
    
    [Java Week 5:Q5](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%205/Exercise%205.5.java)
    
-## [WEEK 6](https://sumitnce1.github.io/)
+## [WEEK 6](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%206)
 
 ## [WEEK 7](https://sumitnce1.github.io/)
 

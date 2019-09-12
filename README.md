@@ -67,6 +67,16 @@
    
 ## [WEEK 6](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%206)
 
+   [Java Week 6:Q1](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%206/Exercise%206.1.java)
+   
+   [Java Week 6:Q2](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%205/Exercise%205.2.java)
+   
+   [Java Week 6:Q3](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%205/Exercise%205.3.java)
+   
+   [Java Week 6:Q4](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%205/Exercise%205.4.java)
+   
+   [Java Week 6:Q5](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%205/Exercise%205.5.java)
+
 ## [WEEK 7](https://sumitnce1.github.io/)
 
 ## [WEEK 8](https://sumitnce1.github.io/)

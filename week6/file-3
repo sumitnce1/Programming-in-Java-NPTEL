@@ -1,0 +1,19 @@
+interface A {
+	public abstract void run();
+}
+class B implements A {
+	public void run() {}
+}
+class MyThread extends B{
+public void run(){
+   System.out.print("NPTEL Java");
+ }
+}
+public class Question63 {
+     public static void main(String[] args) {
+		 // An object of MyThread class is created
+         MyThread t = new MyThread();
+		 // run() of class MyThread is called
+         t.run();
+     }
+}

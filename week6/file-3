@@ -1,19 +1,26 @@
-interface Gowtham {
+interface A {
 	public abstract void run();
 }
-class awesome implements Gowtham {
+
+
+class B implements A {
 	public void run() {}
 }
-class MyThread extends awesome{
+
+
+class MyThread extends B{
+t 
 public void run(){
-   System.out.print("NPTEL Java.............");
+   System.out.print("NPTEL Java");
  }
 }
+
+
 public class Question63 {
      public static void main(String[] args) {
-		 // An object of MyThread class is created
+		
          MyThread t = new MyThread();
-		 // run() of class MyThread is called
+		 
          t.run();
      }
 }

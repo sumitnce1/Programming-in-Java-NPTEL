@@ -1,12 +1,12 @@
-interface A {
+interface Gman {
 	public abstract void run();
 }
-class B implements A {
+class Bmanimplements Gman {
 	public void run() {}
 }
-class MyThread extends B{
+class MyThread extends Bman{
 public void run(){
-   System.out.print("NPTEL Java");
+   System.out.print("NPTEL Java.............");
  }
 }
 public class Question63 {

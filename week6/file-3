@@ -1,10 +1,10 @@
-interface Gman {
+interface Gowtham {
 	public abstract void run();
 }
-class Bmanimplements Gman {
+class awesome implements Gowtham {
 	public void run() {}
 }
-class MyThread extends Bman{
+class MyThread extends awesome{
 public void run(){
    System.out.print("NPTEL Java.............");
  }

@@ -1,4 +1,5 @@
   //Write your code here to count the number of vowels in the string "s1"     
+  ////ONLY SPECIFIC CODE SNIPPET IS GIVEN BECAUSE I WAS LAZY!!
      s1 = s1.toLowerCase();
 for(int i=0;i<s1.length();i++){
 char word = s1.charAt(i);

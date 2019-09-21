@@ -1,5 +1,5 @@
-// Complete the code to get specific indexed byte value and its corresponding char value.
-	
+// Complete the code to get specific indexed byte value and its corresponding char value
+////ONLY SPECIFIC CODE SNIPPET IS GIVEN BECAUSE I WAS LAZY!!
 System.out.println(barr[n]);
 System.out.print((char)barr[n]); }
 

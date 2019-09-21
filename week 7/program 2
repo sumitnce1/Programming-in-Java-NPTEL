@@ -1,4 +1,5 @@
 //Use appropriate Try..catch block to complete the code 
+//ONLY SPECIFIC CODE SNIPPET IS GIVEN BECAUSE I WAS LAZY!!
 try{
 InputStreamReader r=new InputStreamReader(System.in);
  BufferedReader br=new BufferedReader(r);

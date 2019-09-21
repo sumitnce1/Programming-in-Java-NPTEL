@@ -1,4 +1,5 @@
  //Replace the char in string "s1" with the char 'a' at index "n"  and print the modified string 
+ ////ONLY SPECIFIC CODE SNIPPET IS GIVEN BECAUSE I WAS LAZY!!
 StringBuilder string = new StringBuilder(s1);
 string.setCharAt(n,c);
 System.out.print(string);

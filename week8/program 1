@@ -1,0 +1,28 @@
+import java.util.*;
+public class Pattern1 {
+//TECHNICALLY COMPILES BUT STILL TEST CASE ERROR EXISTS SO WIP
+    public static void main(String[] args) {
+        Scanner inr = new Scanner(System.in);
+	int n = inr.nextInt();
+
+        // Add the necessary code in the below space
+      
+
+      
+        for (int i=1; i<=n ;i++) 
+        { 
+            // Print space in decreasing order 
+            for (int j=n; j>i; j--)
+            {
+                System.out.print(" ");
+            }
+            // Print star in increasing order
+            for (int k=1; k<=(i * 2) -1; k++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+      
+    }
+}

@@ -90,7 +90,7 @@
    [Java Week 7:Q5](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%207/Exercise%207.5.java)
 
 
-## [WEEK 8](https://sumitnce1.github.io/)
+## [WEEK 8](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%207)
 
 
 ## Thank You!

@@ -1,28 +1,54 @@
+/*written on eclipse
+dated 2/10/2019 8:35
+@author Flirty_Pullingo aka Kabir_Narayan*/
+
+
+
+
+
+
+
+
 import java.util.*;
 public class Pattern1 {
-//TECHNICALLY COMPILES BUT STILL TEST CASE ERROR EXISTS SO WIP
-    public static void main(String[] args) {
-        Scanner inr = new Scanner(System.in);
-	int n = inr.nextInt();
 
-        // Add the necessary code in the below space
-      
+    public static void main(String[] args) { Scanner inr = new Scanner(System.in);
 
-      
-        for (int i=1; i<=n ;i++) 
-        { 
-            // Print space in decreasing order 
-            for (int j=n; j>i; j--)
-            {
-                System.out.print(" ");
+        int n = inr.nextInt();
+
+// Add the necessary code in the below space int space=n-1;
+        int space=n-1;
+        
+        int star=1;
+
+        int no_of_star=0;
+
+        for (int i=0;i<n;i++){
+
+            for(int j=0;j<space;j++)
+
+                System.out.print("  ");
+
+            for(int j=0;j<star;j++){
+
+                System.out.print("* ");
+
+                no_of_star++;
+
             }
-            // Print star in increasing order
-            for (int k=1; k<=(i * 2) -1; k++)
-            {
-                System.out.print("*");
-            }
+
+            space--;
+
+            star+=2;
+
             System.out.println();
+
         }
-      
+
+        System.out.print(no_of_star);
+
     }
+
 }
+
+

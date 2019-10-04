@@ -98,7 +98,7 @@
    
    [Java Week 8:Q3](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%208/Exercise%208.3.java)
    
-   [Java Week 8:Q4](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%207/Exercise%207.4.java)
+   [Java Week 8:Q4](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%208/Exercise%208.4.java)
    
    [Java Week 8:Q5](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%207/Exercise%207.5.java)
 

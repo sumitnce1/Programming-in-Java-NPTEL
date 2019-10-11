@@ -102,4 +102,11 @@
    
    [Java Week 8:Q5](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%208/Exercise%208.5.java)
 
+
+## [WEEK 9] (https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%209)
+
+
+## [WEEK 10] (https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%210)
+
 ## Thank You!
+

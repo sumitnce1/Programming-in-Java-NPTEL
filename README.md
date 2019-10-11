@@ -106,7 +106,7 @@
 ## [WEEK 9](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%209)
 
 
-## [WEEK 10](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%210)
+## [WEEK 10](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%2010)
 
 ## Thank You!
 

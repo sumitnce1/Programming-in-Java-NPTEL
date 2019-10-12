@@ -110,5 +110,6 @@
 
 ## [WEEK 11](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%2011)
 
+  [Java Week 11:Q1](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%2011/Exercise%2011.1.java)
 ## Thank You!
 

@@ -111,7 +111,7 @@
    
    [Java Week 9:Q3](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%209/Exercise%209.3.java)
    
-   [Java Week 9:Q4]()
+   [Java Week 9:Q4](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%209/Exercise%209.4.java)
    
    [Java Week 9:Q5]()
 

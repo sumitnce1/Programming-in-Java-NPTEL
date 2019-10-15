@@ -126,7 +126,7 @@
    
    [Java Week 10:Q4](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%2010/Exercise%2010.4.java)
    
-   [Java Week 10:Q5]()
+   [Java Week 10:Q5](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%2010/Exercise%2010.5.java)
    
    
 ## [WEEK 11](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%2011)
@@ -140,6 +140,10 @@
   [Java Week 11:Q4](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%2011/Exercise%2011.4.java)
   
   [Java Week 11:Q5](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%2011/Exercise%2011.5.java)
+  
+  
+  ## [WEEK 12](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%2012)
+  
   
 ## Thank You!
 

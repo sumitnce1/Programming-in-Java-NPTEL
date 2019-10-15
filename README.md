@@ -105,6 +105,15 @@
 
 ## [WEEK 9](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%209)
 
+   [Java Week 9:Q1]()
+   
+   [Java Week 9:Q2]()
+   
+   [Java Week 9:Q3]()
+   
+   [Java Week 9:Q4]()
+   
+   [Java Week 9:Q5]()
 
 ## [WEEK 10](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%2010)
 

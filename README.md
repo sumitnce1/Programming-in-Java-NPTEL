@@ -122,7 +122,7 @@
    
    [Java Week 10:Q2](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%2010/Exercise%2010.2.java)
    
-   [Java Week 10:Q3]()
+   [Java Week 10:Q3](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%2010/Exercise%2010.3.java)
    
    [Java Week 10:Q4]()
    

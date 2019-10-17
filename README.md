@@ -144,6 +144,16 @@
   
   ## [WEEK 12](https://github.com/sumitnce1/Programming-in-Java-NPTEL/tree/master/week%2012)
   
+  [Java Week 12:Q1](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%2012/Exercise%2012.1.java)
+  
+  [Java Week 12:Q2]()
+  
+  [Java Week 12:Q3]()
+  
+  [Java Week 12:Q4]()
+  
+  [Java Week 12:Q5]()
+  
   
 ## Thank You!
 

@@ -146,7 +146,7 @@
   
   [Java Week 12:Q1](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%2012/Exercise%2012.1.java)
   
-  [Java Week 12:Q2]()
+  [Java Week 12:Q2](https://github.com/sumitnce1/Programming-in-Java-NPTEL/blob/master/week%2012/Exercise%2012.2.java)
   
   [Java Week 12:Q3]()
   

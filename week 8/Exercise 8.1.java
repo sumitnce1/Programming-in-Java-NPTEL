@@ -21,6 +21,6 @@ public class Pattern1 {
          
 
         }
-       System.out.print(rows*rows);
+       System.out.println(rows*rows);
     }
 }

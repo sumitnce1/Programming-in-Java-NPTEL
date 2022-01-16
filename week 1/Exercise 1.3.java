@@ -8,7 +8,7 @@ public class Exercise1_3 {
  //Use for or while loop do the operation
 		for(int i=0;i<=n;i++)
 		{
-			t = 2*(i-1);
+			t = 2*(i);
 			if(t%3 == 0)
 			{
 				sum += t;

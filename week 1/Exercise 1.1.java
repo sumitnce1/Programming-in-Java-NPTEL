@@ -1,18 +1,19 @@
 //To find the perimeter and area of a circle given a value of radius.
-import java.util.Scanner;  
-public class Exercise1_1 {
-       public static void main(String[] args) {
-Scanner s = new Scanner(System.in); 
-       double radius= s.nextDouble();
-       double perimeter;
-       double area;
-//Calculate the perimeter 
-
-	perimeter = 2 * Math.PI * radius;
-//Calculate the area
-	area = perimeter * radius;
-	
-	System.out.println(perimeter);
-	System.out.println(area);
+import java.util.*;
+class xyz
+{
+	void main()
+	{
+		Scanner obj=new Scanner (System.in);
+		System.out.println("Enter the number ");
+		int r=obj.nextInt();
+		double perimeter;
+		double area;
+		perimeter=2*2.14*r;
+		area=2.14*r*r;
+		System.out.println(" The perimeter is " +perimeter);
+		System.out.println(" The area is " +area);
 	}
 }
+
+		

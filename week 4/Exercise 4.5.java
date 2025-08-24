@@ -1,25 +1,25 @@
 // Interface ShapeX is created
 interface ShapeX {
- public String baseX = "This is Shape1";
+ public String base = "This is Shape1";
  public void display1();
 }
 
 // Interface ShapeY is created which extends ShapeX
 interface ShapeY extends ShapeX {
- public String baseY = "This is Shape2";
+ public String base = "This is Shape2";
  public void display2();
 }
 
 // Class ShapeG is created which implements ShapeY
 class ShapeG implements ShapeY {
- public String baseG = "This is Shape3";
+ public String base = "This is Shape3";
  //Overriding method in ShapeX interface
  public void display1() {
-  System.out.println("Circle: " + baseX);
+  System.out.println("Circle: " + ShapeX.base);
  }
  // Override method in ShapeY interface
  public void display2() {
-  System.out.print("Circle: " + baseY);
+  System.out.print("Circle: " + ShapeY.base);
  }
 }
 

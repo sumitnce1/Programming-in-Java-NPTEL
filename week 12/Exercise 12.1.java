@@ -3,64 +3,68 @@ public class Question92{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
-        
-        
-        char sumit[]=input.toCharArray(); 
-int outflag=0; 
-double sumitnce=0.0,lifeline=0.0;
-String o1="" ,o2=""; 
-double nce=0.0;
+         char seq[] = input.toCharArray();
+		int outflag=0;
+		
+		for(int i=0; i<seq.length; i++){
+			seq[i]=gui_map(seq[i]);
+		   if (seq[i]=='R' || seq[i]=='S' || seq[i]=='F' ||seq[i]=='C')
+				break;
+		}
+		//Print Mapped GUI (remove comment to see the mapped sequence input)
+		/*
+		for(int i=0; i<seq.length; i++){
+			System.out.print(seq[i]);
+		}
+		*/
+		// Use double type of values for entire calculation
+		double operand1=0.0;
+		String o1="";
+		double operand2=0.0;
+		String o2="";
+		double output=0.0;
+		double lifeline=0.0;
+outerloop: for (int i = 0; i < seq.length; i++) {
+            int r = 0;
+            if (seq[i] == '+' || seq[i] == '-' || seq[i] == '/' || seq[i] == 'X' || seq[i] == '=') {
+                for (int j = 0; j < i; j++)
+                    o1 += Character.toString(seq[j]);
+                operand1 = Double.parseDouble(o1);
+                for (int k = i + 1; k < seq.length; k++) {
+                    if (seq[k] == '=') {
+                        outflag = 1;
+                        lifeline = Double.parseDouble(o2);
+                        if (seq[i] == '+')
+                            output = operand1 + lifeline;
+                        else if (seq[i] == '-')
+                            output = operand1 - lifeline;
+                        else if (seq[i] == '/')
+                            output = operand1 / lifeline;
+                        else if (seq[i] == 'X')
+                            output = operand1 * lifeline;
+                        break outerloop;
+                    } else
+                        o2 += Character.toString(seq[k]);
+                }} else if (seq[i] == 'R' || seq[i] == 'S' || seq[i] == 'F') {
+                for (int j = 0; j < i; j++)
+                    o1 += Character.toString(seq[j]);
+                operand1 = Double.parseDouble(o1);
+                if (seq[i] == 'R')
+                    output = Math.sqrt(operand1);
+                else if (seq[i] == 'S')
+                    output = operand1 * operand1;
+                else if (seq[i] == 'F')
+                    output = 1 / operand1;
+                outflag = 1; // Set outflag when calculation is performed
+                break outerloop;
+            }
+        }
+// Check if output is available and print the output
+		if(outflag==1)
+			System.out.print(output);
 
-for(int i=0; i<sumit.length; i++)
-	sumit[i]=gui_map(sumit[i]);
 
-outerloop:
-	for (int i=0; i<sumit.length; i++)
-	{
-  		int r=0;
-  		if(sumit[i]=='+'||sumit[i]=='-'||sumit[i]=='/'||sumit[i]=='X'||sumit[i]=='=')
-  		{
-   		 for (int j=0; j<i; j++)
-      		o1+=Character.toString(sumit[j]);
-    		sumitnce=Double.parseDouble(o1);
-    	 for(int k=i+1; k<sumit.length; k++)
-    	{
-      	   if(sumit[k]=='=')
-      		{
-        	outflag=1;
-        	lifeline=Double.parseDouble(o2);
-        	if(sumit[i]=='+')
-        		nce=sumitnce+lifeline;
-        	else if(sumit[i]=='-')
-       		  nce=sumitnce-lifeline;
-       	    else if(sumit[i]=='/')
-         	 nce=sumitnce/lifeline;
-        	else if(sumit[i]=='X')
-         	 nce=sumitnce*lifeline;
-        	break outerloop;
-      }
-      else
-        o2+=Character.toString(sumit[k]);
-    }
- }
- else if(sumit[i]=='R'||sumit[i]=='S'||sumit[i]=='F')
- {
-   for (int j=0;j<i;j++)
-     o1+=Character.toString(sumit[j]);
-     sumitnce=Double.parseDouble(o1);
-   		if(sumit[i]=='R')
-          System.out.print(Math.sqrt(sumitnce));
-   		else if(sumit[i]=='S')
-          System.out.print(sumitnce*sumitnce);
-        else if(sumit[i]=='F')
-          System.out.print(1/sumitnce);
-    }
-}
-	if(outflag==1)
-      System.out.print(nce);
-      
-      
-      	}// The main() method ends here.
+}// The main() method ends here.
 	
 // A method that takes a character as input and returns the corresponding GUI character
 	static char gui_map(char in){
@@ -85,8 +89,8 @@ outerloop:
 					,{'r','F'}
 					,{'s','C'}
 					,{'t','/'}};
-					/*
-					R = Square root
+					
+                    /* R = Square root
 					C = Clear/Restart
 					F = Fraction
 					S = Square
@@ -102,5 +106,3 @@ outerloop:
 		return out;
 	}
 }
-      
-      
